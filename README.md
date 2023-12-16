@@ -14,7 +14,7 @@ This is an incredibly simple encoder and decoder written in Rust. It should not 
 - The encoding :
     - Generates a seed.
     - Uses a seeded generator to generate a random number in the range of 1 to 4.
-    - Takes the random number and swappes that amount of bytes.
+    - Takes the random number and swaps that amount of bytes.
     - Does this until all bytes are covered; if needed, adds 0x0s.
     - At the end of the file, adds 0x4 ASCII and the seed that was used.
 
